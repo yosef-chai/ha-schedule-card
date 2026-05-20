@@ -1,0 +1,126 @@
+{
+  "common": {
+    "on": "פעיל",
+    "off": "כבוי",
+    "loading": "טוען…",
+    "error_no_entity": "הישות לא נמצאה",
+    "error_pick_schedule": "יש לבחור ישות לוח-זמנים",
+    "error_not_a_schedule": "הישות שנבחרה אינה ישות schedule.",
+    "error_invalid_config": "הגדרת הכרטיס אינה תקינה",
+    "error_loading_timeout": "הטעינה ארכה זמן רב — נסו שוב.",
+    "empty_pick_entity": "לא נבחר לוח-זמנים",
+    "empty_pick_entity_hint": "פתחו את עריכת הכרטיס ובחרו ישות מסוג schedule.",
+    "error_ws_failed": "טעינת לוח-הזמנים מ-Home Assistant נכשלה: {message}",
+    "retry": "נסה שוב",
+    "now": "עכשיו"
+  },
+  "header": {
+    "state_on": "פעיל",
+    "state_off": "לא פעיל",
+    "next_event": "האירוע הבא",
+    "until": "עד {time}",
+    "from": "החל מ-{time}",
+    "starts_in": "מתחיל בעוד {duration}",
+    "ends_in": "מסתיים בעוד {duration}",
+    "no_blocks_today": "אין בלוקים מתוזמנים להיום"
+  },
+  "days": {
+    "short": {
+      "sunday": "א׳",
+      "monday": "ב׳",
+      "tuesday": "ג׳",
+      "wednesday": "ד׳",
+      "thursday": "ה׳",
+      "friday": "ו׳",
+      "saturday": "ש׳"
+    },
+    "long": {
+      "sunday": "ראשון",
+      "monday": "שני",
+      "tuesday": "שלישי",
+      "wednesday": "רביעי",
+      "thursday": "חמישי",
+      "friday": "שישי",
+      "saturday": "שבת"
+    },
+    "today": "היום",
+    "yesterday": "אתמול",
+    "tomorrow": "מחר"
+  },
+  "view": {
+    "daily": "יומית",
+    "weekly": "שבועית",
+    "switch_to_daily": "מעבר לתצוגה יומית",
+    "switch_to_weekly": "מעבר לתצוגה שבועית"
+  },
+  "layout": {
+    "full": "מלאה",
+    "compact": "קומפקטית"
+  },
+  "legend": {
+    "active": "פעיל",
+    "inactive": "לא פעיל",
+    "current_time": "זמן נוכחי"
+  },
+  "nav": {
+    "previous_day": "יום קודם",
+    "next_day": "יום הבא"
+  },
+  "blocks": {
+    "title": "בלוקים פעילים היום",
+    "title_for_day": "בלוקים ליום {day}"
+  },
+  "a11y": {
+    "active_block": "בלוק פעיל בין {from} ל-{to}",
+    "inactive_block": "לא פעיל בין {from} ל-{to}",
+    "day_column": "{day}, {count} בלוקים פעילים",
+    "now_marker": "השעה הנוכחית: {time}",
+    "timeline_region": "ציר לוח-זמנים של 24 שעות",
+    "week_region": "טבלת לוח-זמנים שבועית"
+  },
+  "editor": {
+    "sections": {
+      "display_options": { "title": "אפשרויות תצוגה" },
+      "appearance": { "title": "עיצוב" },
+      "actions": { "title": "פעולות (לחיצה / לחיצה ארוכה)" }
+    },
+    "fields": {
+      "entity": {
+        "label": "ישות לוח-זמנים",
+        "helper": "בחר/י ישות מסוג schedule."
+      },
+      "title": { "label": "כותרת מותאמת" },
+      "view": {
+        "label": "תצוגה",
+        "options": { "daily": "יומית", "weekly": "שבועית" }
+      },
+      "layout": {
+        "label": "פריסה",
+        "options": { "full": "מלאה", "compact": "קומפקטית" }
+      },
+      "show_header": { "label": "הצגת כותרת" },
+      "show_state": { "label": "הצגת תווית מצב נוכחי" },
+      "show_next_event": { "label": "הצגת האירוע הבא" },
+      "show_legend": { "label": "הצגת מקרא" },
+      "allow_view_switch": { "label": "כפתור החלפת תצוגה בכרטיס" },
+      "first_day_of_week": {
+        "label": "יום ראשון בשבוע",
+        "options": { "sunday": "ראשון", "monday": "שני" }
+      },
+      "time_format": {
+        "label": "פורמט שעה",
+        "options": {
+          "auto": "אוטומטי (לפי הגדרות HA)",
+          "24h": "24 שעות",
+          "12h": "12 שעות (AM/PM)"
+        }
+      },
+      "active_color": { "label": "צבע בלוק פעיל" },
+      "inactive_color": { "label": "צבע בלוק לא פעיל" },
+      "current_time_color": { "label": "צבע סמן השעה הנוכחית" },
+      "tap_action": { "label": "פעולת לחיצה" },
+      "hold_action": { "label": "פעולת לחיצה ארוכה" },
+      "double_tap_action": { "label": "פעולת לחיצה כפולה" }
+    }
+  }
+}

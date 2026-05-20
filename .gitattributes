@@ -1,0 +1,10 @@
+# Normalize text files to LF in the repo; checkout uses native line endings.
+* text=auto eol=lf
+
+# Windows scripts must always use CRLF so cmd.exe parses them correctly.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Treat the built artifact and lockfile as generated for review purposes.
+dist/* linguist-generated=true
+package-lock.json linguist-generated=true

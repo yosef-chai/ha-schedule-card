@@ -1,0 +1,15 @@
+node_modules/
+*.log
+.DS_Store
+.vscode/
+.idea/
+coverage/
+.cache/
+.rollup.cache/
+*.tsbuildinfo
+.env
+.env.local
+
+# Local build artefacts (kept only for HA quick-copy via build-ha.bat;
+# the official release artefact is the .js file uploaded to GitHub Releases)
+dist/*.js.gz

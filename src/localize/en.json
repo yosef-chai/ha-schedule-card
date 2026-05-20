@@ -1,0 +1,126 @@
+{
+  "common": {
+    "on": "On",
+    "off": "Off",
+    "loading": "Loading…",
+    "error_no_entity": "Entity not found",
+    "error_pick_schedule": "Please select a schedule entity",
+    "error_not_a_schedule": "The selected entity is not a schedule.* entity",
+    "error_invalid_config": "Invalid card configuration",
+    "error_loading_timeout": "Loading took too long — try again.",
+    "empty_pick_entity": "No schedule selected",
+    "empty_pick_entity_hint": "Open the card editor and choose a schedule.* entity.",
+    "error_ws_failed": "Failed to load the schedule from Home Assistant: {message}",
+    "retry": "Retry",
+    "now": "Now"
+  },
+  "header": {
+    "state_on": "Active",
+    "state_off": "Inactive",
+    "next_event": "Next event",
+    "until": "Until {time}",
+    "from": "From {time}",
+    "starts_in": "Starts in {duration}",
+    "ends_in": "Ends in {duration}",
+    "no_blocks_today": "No blocks scheduled today"
+  },
+  "days": {
+    "short": {
+      "sunday": "Sun",
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat"
+    },
+    "long": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    },
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow"
+  },
+  "view": {
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "switch_to_daily": "Switch to daily view",
+    "switch_to_weekly": "Switch to weekly view"
+  },
+  "layout": {
+    "full": "Full",
+    "compact": "Compact"
+  },
+  "legend": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "current_time": "Current time"
+  },
+  "nav": {
+    "previous_day": "Previous day",
+    "next_day": "Next day"
+  },
+  "blocks": {
+    "title": "Today's blocks",
+    "title_for_day": "Blocks for {day}"
+  },
+  "a11y": {
+    "active_block": "Active block from {from} to {to}",
+    "inactive_block": "Inactive from {from} to {to}",
+    "day_column": "{day}, {count} active blocks",
+    "now_marker": "Current time: {time}",
+    "timeline_region": "24-hour schedule timeline",
+    "week_region": "Weekly schedule grid"
+  },
+  "editor": {
+    "sections": {
+      "display_options": { "title": "Display options" },
+      "appearance": { "title": "Appearance" },
+      "actions": { "title": "Actions (Tap / Hold)" }
+    },
+    "fields": {
+      "entity": {
+        "label": "Schedule entity",
+        "helper": "Select a schedule.* entity"
+      },
+      "title": { "label": "Title override" },
+      "view": {
+        "label": "View",
+        "options": { "daily": "Daily", "weekly": "Weekly" }
+      },
+      "layout": {
+        "label": "Layout",
+        "options": { "full": "Full", "compact": "Compact" }
+      },
+      "show_header": { "label": "Show header" },
+      "show_state": { "label": "Show current state badge" },
+      "show_next_event": { "label": "Show next event" },
+      "show_legend": { "label": "Show legend" },
+      "allow_view_switch": { "label": "Show view-switch toggle on the card" },
+      "first_day_of_week": {
+        "label": "First day of the week",
+        "options": { "sunday": "Sunday", "monday": "Monday" }
+      },
+      "time_format": {
+        "label": "Time format",
+        "options": {
+          "auto": "Auto (follow HA settings)",
+          "24h": "24-hour",
+          "12h": "12-hour (AM/PM)"
+        }
+      },
+      "active_color": { "label": "Active block color" },
+      "inactive_color": { "label": "Inactive block color" },
+      "current_time_color": { "label": "Current time marker color" },
+      "tap_action": { "label": "Tap action" },
+      "hold_action": { "label": "Hold action" },
+      "double_tap_action": { "label": "Double-tap action" }
+    }
+  }
+}
